@@ -1,0 +1,22 @@
+# Exclude local development and test files
+.env
+local.settings.json
+.venv/
+__pycache__/
+test_payload.json
+.git/
+.gitignore
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.bak
+*.swp
+*.tmp
+*.temp
+*.~
+.DS_Store
+Thumbs.db
