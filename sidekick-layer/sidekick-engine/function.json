@@ -1,0 +1,19 @@
+{
+  "scriptFile": "main.py",
+  "entryPoint": "main",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["post", "get"],
+      "route": "sidekick-engine"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}

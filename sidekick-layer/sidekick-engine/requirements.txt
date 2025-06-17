@@ -1,0 +1,76 @@
+# Fixed requirements.txt for Dynamic Sidekick Engine
+# All version numbers pinned for stability and compatibility
+
+# Core Azure Functions support
+azure-functions>=1.18.0
+azure-identity>=1.15.0
+azure-keyvault-secrets>=4.8.0
+
+# Azure CosmosDB for dynamic prompt storage
+azure-cosmos>=4.5.1
+
+# Core validation and data models
+pydantic>=2.5.0,<3.0.0
+
+# HTTP client for LLM calls
+httpx>=0.25.0
+
+# LangChain framework (CRITICAL requirement)
+langchain>=0.1.0,<0.2.0
+langchain-core>=0.1.0,<0.2.0
+langchain-community>=0.0.10,<0.1.0
+
+# Data processing and utilities
+python-dateutil>=2.8.0
+
+# JSON handling and utilities
+python-json-logger>=2.0.0
+
+# Async utilities
+asyncio>=3.4.3
+
+# For retry logic and reliability
+tenacity>=8.2.0
+
+# Cryptography for secure token handling
+cryptography>=41.0.0
+
+# For environment variable handling
+python-dotenv>=1.0.0
+
+# Optional: Enhanced logging and monitoring
+structlog>=22.0.0
+
+# Optional: Performance monitoring
+psutil>=5.9.0
+
+# Optional: Memory profiling for development
+memory-profiler>=0.61.0
+
+# Development and testing dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# Optional: Code quality tools
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Azure Functions specific
+azure-functions-worker>=1.0.0
+
+# For better error handling and debugging
+rich>=13.0.0
+
+# For configuration management
+pyyaml>=6.0.1
+
+# For data validation and transformation
+marshmallow>=3.20.0
+
+# For async database operations
+aiofiles>=23.0.0
+
+# For UUID generation and handling
+uuid>=1.30
